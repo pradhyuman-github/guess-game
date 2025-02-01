@@ -105,5 +105,37 @@ h1 {
     cursor: pointer;
 }
 
-
-
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .again {
+        font-size: 0.8rem;
+        font-weight: bold;
+        width: 16vw;
+        border: 1px solid black;
+    }
+    .text {
+        text-align: center;
+    }
+    .num {
+        font-size: 1.3rem;
+        width: 60vw;
+        height: 6vh;
+    }
+    .btn {
+        font-size: 1.3rem;
+        width: 26vw;
+        border: 1px solid black;
+    }
+    .score-box {
+        flex-direction: column;
+    }
+    .score , .highscore {
+        font-size: 1.3rem;
+    }
+    .mssg {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
